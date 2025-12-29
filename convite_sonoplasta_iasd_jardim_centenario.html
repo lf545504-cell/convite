@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Convite | Sonoplasta – IASD Jardim Centenário</title>
+  <style>
+    :root{
+      --primary:#0b3c5d;
+      --secondary:#1d7a85;
+      --accent:#f2c94c;
+      --bg:#f7f9fb;
+      --text:#1f2937;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color:var(--text);
+      background:linear-gradient(180deg,#ffffff 0%, var(--bg) 100%);
+    }
+    header{
+      background:radial-gradient(1200px 300px at 50% -50%, var(--secondary), var(--primary));
+      color:#fff;
+      padding:56px 16px 72px;
+      text-align:center;
+    }
+    header h1{margin:0 0 8px;font-size:2.2rem;letter-spacing:.3px}
+    header p{margin:0;opacity:.95}
+    .container{max-width:980px;margin:-40px auto 0;padding:0 16px 64px}
+    .card{
+      background:#fff;border-radius:16px;box-shadow:0 20px 40px rgba(0,0,0,.08);
+      padding:28px;margin-bottom:20px
+    }
+    .badge{
+      display:inline-block;background:rgba(242,201,76,.15);color:#7a5d00;
+      padding:6px 10px;border-radius:999px;font-weight:600;font-size:.85rem
+    }
+    h2{margin:10px 0 8px}
+    ul{padding-left:18px}
+    li{margin:6px 0}
+    .grid{display:grid;grid-template-columns:1fr;gap:16px}
+    @media (min-width:768px){.grid{grid-template-columns:1.2fr .8fr}}
+    .cta{
+      display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between
+    }
+    .btn{
+      appearance:none;border:none;border-radius:12px;padding:14px 18px;font-weight:700;
+      cursor:pointer;text-decoration:none
+    }
+    .btn-primary{background:var(--secondary);color:#fff}
+    .btn-outline{background:#fff;color:var(--secondary);border:2px solid var(--secondary)}
+    footer{padding:24px 16px;text-align:center;color:#6b7280}
+    .verse{font-style:italic;color:#374151}
+  </style>
+</head>
+<body>
+  <header>
+    <span class="badge">Convite Oficial</span>
+    <h1>Convite para Servir como Sonoplasta</h1>
+    <p>Igreja Adventista do Sétimo Dia – Jardim Centenário</p>
+  </header>
+
+  <main class="container">
+    <section class="card grid">
+      <div>
+        <h2>Você é nosso convidado!</h2>
+        <p>
+          Com alegria, convidamos você a exercer o cargo de <strong>Sonoplasta</strong> em nossa igreja.
+          Seu talento pode contribuir para que cada culto seja conduzido com excelência, reverência e clareza,
+          apoiando a missão de levar a mensagem com qualidade.
+        </p>
+        <p class="verse">“Tudo, porém, seja feito com decência e ordem.” (1 Coríntios 14:40)</p>
+      </div>
+      <div>
+        <h2>Por que esse ministério é importante?</h2>
+        <ul>
+          <li>Garante a boa comunicação da Palavra e da música</li>
+          <li>Apoia pregadores, músicos e líderes</li>
+          <li>Contribui para um ambiente de adoração organizado</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Atribuições do Sonoplasta</h2>
+      <ul>
+        <li>Operar mesa de som durante cultos e eventos</li>
+        <li>Regular microfones, instrumentos e mídias</li>
+        <li>Zelar pelos equipamentos de áudio</li>
+        <li>Trabalhar em equipe com música e liderança</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Requisitos Desejáveis</h2>
+      <ul>
+        <li>Compromisso com os princípios cristãos</li>
+        <li>Disponibilidade para cultos e ensaios</li>
+        <li>Vontade de aprender (não é necessário experiência prévia)</li>
+      </ul>
+    </section>
+
+    <section class="card cta">
+      <div>
+        <h2>Deseja aceitar o convite?</h2>
+        <p>Será uma bênção contar com você nesse ministério!</p>
+      </div>
+      <div>
+        <a class="btn btn-primary" href="#contato">Quero Servir</a>
+        <a class="btn btn-outline" href="#">Compartilhar Convite</a>
+      </div>
+    </section>
+
+    <section id="contato" class="card">
+      <h2>Contato</h2>
+      <p>
+        Fale com a liderança da igreja para mais informações:
+        <br />
+        <strong>Igreja Adventista do Jardim Centenário</strong>
+      </p>
+      <p>
+        📍 Jardim Centenário<br />
+        📞 (00) 00000-0000<br />
+        ✉️ contato@iasd-jardimcentenario.org
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 IASD Jardim Centenário • Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
